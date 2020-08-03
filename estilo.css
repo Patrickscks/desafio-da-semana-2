@@ -1,0 +1,190 @@
+html,
+body{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#section{
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    height: 60px;
+    width: 100%;
+    background:white;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left:0%;
+    z-index: 10;
+    border-bottom: solid 3px #6E7371;
+  }
+
+header #logo {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    float: right;
+    height: 60px;
+    width: 210px;
+    margin-left: 2%;
+}
+
+#menu{
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+li{
+    float:left;
+    padding: 20 10 20 10;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+li a {
+    color: initial;
+    text-decoration: initial;
+    color: black;
+  }
+
+li:hover{
+    background-color:  #6E7371;
+}
+
+/* CAPA */
+figure{
+    margin: 0 auto;
+}
+
+figure .imgfundo {
+    background: url(img/mar.jpg);
+    text-align: center;
+    background-size: cover;
+    height: 100%;
+    padding:10px;
+
+}
+figure .titulo{
+        color: white;
+        text-shadow: 3px 3px black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        margin: 20% 20% 0 20%;
+}
+
+figure .subtitulo{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px black;
+    color:white;
+    border-top: white solid 2px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+    margin: 0 25% 0 25%;
+    border-top: 3px solid white;
+    padding-bottom: 20px;
+}
+
+.botao{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 5%;
+    height: 4%;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10 20 10 20;
+    text-decoration: initial;
+    font-size: 20px;
+
+}
+
+.botao:hover{
+    color: black;
+    background-color:white;
+}
+
+/* COLUNAS */
+.coluna{
+    float: left;
+    padding: 2% 5%;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+.video{
+    margin-top: 5% ;
+}
+
+.imgajuda{
+    width: 90%;
+    height: 30%;
+}
+
+.icone{
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.icone:hover{
+    background-color: rgb(143, 142, 142);
+}
+
+.destaque{
+    background-color:#f7f7f7;
+}
+
+/* FOOTER */
+footer{
+    background-color:black;
+    color: white;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+}
+
+/*TEXTOS*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+/*FLOATS*/
+.floatoff{
+    clear: both;
+}
+
+.floatleft{
+    float: left;
+}
+
+
+
